@@ -5,24 +5,36 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Alter Ego</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./styles/style.css">
 </head>
 <body>
-    <header></header>
+    <header class="cabecalho">
+        <nav class="cabecalho__menu">
+            <a class="cabecalho__menu__link" href="index.html"> Home </a>
+            <a class="cabecalho__menu__link" href="about.html"> Sobre Mim </a>
+        </nav>
+    </header>
     <main class="apresentacao">
         <section class="apresentacao__conteudo">
                 <h1 class="apresentacao__conteudo__titulo">Olá prazer em conhece-lo, sou AlterEgo, <strong class="titulo-destaque"> uma página desenvolvida pelo Henrique para servir como fonte de seu portfólio. </strong> </h1>
                 <p class="apresentacao__conteudo__paragrafo">Prazer, sou Henrique de Almeida, desenvolvedor Front-end com especialidade em Javascript, React, HTML e CSS. </p>     
             <div class="apresentacao__links">
-                <a class="apresentacao__links_links" href="https://www.instagram.com/henryq.png/"> Instagram </a>
-                <a class="apresentacao__links_links" href="https://github.com/Henryqtt"> Github </a>
+                <h2 class="apresentacao__links__subtitulo">Acesse minhas redes</h2>
+                <a class="apresentacao__links_links" href="https://www.instagram.com/henryq.png/" target = "_blank"> 
+                    <img src="./assets/Logo linkedin.png" alt="LinkedinIcon">
+                    Linkedin </a>
+                <a class="apresentacao__links_links" href="https://github.com/Henryqtt" target = "_blank"> 
+                    <img src="./assets/Logo Github.png" alt="GithubIcon">
+                    Github </a>
             </div> 
         </section> 
         <section>
-            <img src="arquivos_do_projeto/Eu.jpg" alt="Minha Foto">
+            <img src="./assets/Eu.jpg" alt="Minha Foto">
         </section>     
     </main>
-    <footer></footer>
+    <footer class="rodape">
+        <p> Desenvolvido por Henrique de Almeida.</p>
+    </footer>
 
 
 </body>
